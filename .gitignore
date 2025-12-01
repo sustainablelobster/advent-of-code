@@ -1,0 +1,6 @@
+.bundle/
+example.txt
+input.txt
+tmp/
+*venv/
+.vscode/
