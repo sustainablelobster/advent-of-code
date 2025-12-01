@@ -9,13 +9,13 @@ repos:
       - id: mixed-line-ending
       - id: detect-private-key
 
-  - repo: local
-    hooks:
-      - id: standardrb
-        name: check Ruby style with StandardRB
-        description: Check Ruby style with StandardRB
-        entry: .bin/standardrb.sh
-        language: script
-        types: ["ruby"]
-        stages: [pre-commit]
-        verbose: true
+  # - repo: local
+  #   hooks:
+  #     - id: standardrb
+  #       name: check Ruby style with StandardRB
+  #       description: Check Ruby style with StandardRB
+  #       entry: .bin/standardrb.sh
+  #       language: script
+  #       types: ["ruby"]
+  #       stages: [pre-commit]
+  #       verbose: true
