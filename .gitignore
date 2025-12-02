@@ -1,6 +1,7 @@
 .bundle/
 example.txt
 input.txt
+problem.txt
 tmp/
 *venv/
 .vscode/
