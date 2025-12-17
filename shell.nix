@@ -31,5 +31,6 @@ pkgs.mkShell {
     export GEM_HOME=$BUNDLE_PATH
     export GEM_PATH=$GEM_HOME:${defaultGemDir}
     export PATH=$BUNDLE_BIN:$PATH
+    pre-commit install
   '';
 }
